@@ -1,0 +1,38 @@
+{
+  "MAIN GATE-RATAN TATA": {
+    "path": "MAIN GATE → Emblem → Horse Statue → RATAN TATA",
+    "instructions": "Walk straight till Emblem, take left at the Emblem. Continue straight till you reach the horse statue. From the statue, climb the steps for the first floor or take left for the ground floor.",
+    "distance": "250m",
+    "time": "3 mins"
+  },
+  "RATAN TATA-KL ROA": {
+    "path": "RTB → Emblem → Junction → KL ROA",
+    "instructions": "Walk straight. Take left at the junction and continue to walk straight. KL ROA will be on your left",
+    "distance": "300m",
+    "time": "4 mins"
+  },
+  "RATAN TATA-GIRLS HOSTEL": {
+    "path": "RTB → Emblem → GIRLS HOSTEL",
+    "instructions": "Walk straight till Emblem, then take left at the Emblem to reach the Girls Hostel area.",
+    "distance": "200m",
+    "time": "2 mins"
+  },
+  "RATAN TATA-BILL GATES": {
+    "path": "RTB → Emblem → KL ROA → BILL GATES",
+    "instructions": "Walk straight till horse statue. Take left at the junction. Continue straight and cross KL ROA. The next block is Bill Gates Bhavan.",
+    "distance": "400m",
+    "time": "5 mins"
+  },
+  "RATAN TATA-BBA BLOCK": {
+    "path": "RTB → Emblem → Flag → BBA BLOCK",
+    "instructions": "Walk straight till Emblem. Take a left at emblem. Continue straight till the flag. Take right from the flag. Continue until you reach BBA block.",
+    "distance": "350m",
+    "time": "4 mins"
+  },
+  "RATAN TATA-PHARMACY BLOCK": {
+    "path": "RTB → Emblem → Flag → PHARMACY BLOCK",
+    "instructions": "Walk straight till Emblem. Take a left .Continue straight till the flag. Take right from the flag. Continue to walk straight until you reach Pharmacy block on the right.",
+    "distance": "450m",
+    "time": "6 mins"
+  }
+}

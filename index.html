@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Campus Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<img src="./images/college.jpg" class="bg-image">
+
+<div class="container">
+
+    <h1>Smart Campus Navigation System</h1>
+    <p class="subtitle">QR-based campus navigation made easy</p>
+
+    <!-- Current Location Card -->
+    <div class="card">
+        <h3>📍 Current Location</h3>
+        <p id="currentLocation">Not detected</p>
+        <button onclick="scanQR()">Scan QR Code</button>
+        <div id="qr-reader"></div>
+    </div>
+
+    <!-- MERGED BLUE BOX SECTION -->
+    <div class="merged-group">
+        <div class="destination-section">
+            <h3>🎯 Select Destination</h3>
+            <select id="destination">
+                <option value="">-- Select Destination --</option>
+                <option value="MAIN GATE">MAIN GATE</option>
+                <option value="RATAN TATA">RATAN TATA</option>
+                <option value="KL ROA">KL ROA</option>
+                <option value="GIRLS HOSTEL">GIRLS HOSTEL</option>
+                <option value="BILL GATES">BILL GATES</option>
+                <option value="BBA BLOCK">BBA BLOCK</option>
+                <option value="PHARMACY BLOCK">PHARMACY BLOCK</option>
+            </select>
+            <button onclick="getDirections()">Get Directions</button>
+        </div>
+
+        <!-- The Result Section is now part of the blue box -->
+        <div id="result" class="result-section">
+            <p style="text-align: center; color: #666;">Scan QR and select destination to see directions.</p>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://unpkg.com/html5-qrcode"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
